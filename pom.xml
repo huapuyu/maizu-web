@@ -19,20 +19,6 @@
 			<artifactId>commons-beanutils</artifactId>
 		</dependency>
 		
-		<!-- struts2 -->
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-core</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-spring-plugin</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.apache.struts</groupId>
-			<artifactId>struts2-json-plugin</artifactId>
-		</dependency>
-
 		<!-- maizu -->
 		<dependency>
 			<groupId>com.anders</groupId>
@@ -45,6 +31,17 @@
 		<dependency>
 			<groupId>com.anders</groupId>
 			<artifactId>maizu-service</artifactId>
+		</dependency>
+		
+		<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>servlet-api</artifactId>
+		</dependency>
+		
+		<!-- spring -->
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-webmvc</artifactId>
 		</dependency>
 	</dependencies>
 
